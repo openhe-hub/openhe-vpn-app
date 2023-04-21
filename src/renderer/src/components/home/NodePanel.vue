@@ -13,6 +13,7 @@
             </template>
             <el-button class="card-btn" type="primary" plain>Connect</el-button>
             <el-button class="card-btn" type="danger" plain>Disconnect</el-button>
+            <el-button :icon="CopyDocument" circle />
           </el-card>
         </el-col>
       </el-row>
@@ -22,6 +23,7 @@
 
 <script setup>
 import { reactive } from 'vue'
+import {CopyDocument} from "@element-plus/icons-vue";
 
 const cardData = reactive([
   {
