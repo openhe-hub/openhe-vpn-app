@@ -5,6 +5,8 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 // element ui icon
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+// dark ui
+import 'element-plus/theme-chalk/dark/css-vars.css'
 // vue router
 import router from './plugin/vue-router/config.js'
 
