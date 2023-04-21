@@ -3,3 +3,6 @@ dist
 out
 build
 *.log*
+
+.vscode
+.idea
