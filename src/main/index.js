@@ -9,7 +9,6 @@ function createWindow() {
     width: 1040,
     height: 720,
     show: false,
-    title: 'OPENHE VPN',
     autoHideMenuBar: true,
     resizable: true,
     ...(process.platform === 'linux' ? { icon } : {}),
