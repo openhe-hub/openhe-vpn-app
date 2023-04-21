@@ -1,6 +1,6 @@
 <template>
   <div id="chart-container">
-    chart
+    Down/Up Speed Chart
     <div id="chart-box" ref="chartRef"></div>
   </div>
 </template>
